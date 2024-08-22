@@ -23,6 +23,13 @@ Before you begin, ensure you have met the following requirements:
 - **TensorFlow**: Install TensorFlow 2.x for deep learning.
 - **spaCy**: Install spaCy and download the English language model (`en_core_web_sm`).
 - **GPU (optional)**: If you have a GPU, TensorFlow can leverage it for faster training.
+- **GPU Driver**: You will need to install nvidia gpr drivers and cuda drivers and cuda toolkit
+  (please note you will need a cuda capable GPU(s))
+
+to install the python libraries
+```bash
+pip install -r requirements.txt
+```
 
 ## Installation
 
@@ -81,6 +88,7 @@ After generating code, the program requests user feedback. If positive feedback 
 
 ## File Structure
 - main.py: The main script that runs the program.
+- requirements.txt
 - trained_model.keras: The saved model file (generated after training).
 - README.md: This readme file.
 ## Contributing
