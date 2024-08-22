@@ -6,8 +6,8 @@ This project is a Python-based tool for generating Python code using a character
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-  - [Menu Options](#menu-options)
+- [Usage](#usage) 
+- [Menu Options](#menu-options)
 - [Model Training](#model-training)
 - [Model Evaluation](#model-evaluation)
 - [Model Updating](#model-updating)
