@@ -1,0 +1,2 @@
+tensorflow~=2.10.0
+spacy~=3.5.0
