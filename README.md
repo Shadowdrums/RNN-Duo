@@ -26,17 +26,12 @@ Before you begin, ensure you have met the following requirements:
 - **GPU Driver**: You will need to install nvidia gpr drivers and cuda drivers and cuda toolkit
   (please note you will need a cuda capable GPU(s))
 
-to install the python libraries
-```bash
-pip install -r requirements.txt
-```
-
 ## Installation
 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/RNN-Duo
+   git clone https://github.com/Shadowdrums/RNN-Duo
    cd your-repo
 Install Dependencies:
 
@@ -46,6 +41,12 @@ Copy code
 ```bash
 pip install tensorflow spacy
 python -m spacy download en_core_web_sm
+```
+
+to install the python libraries with requirements.txt
+Copy code
+```bash
+pip install -r requirements.txt
 ```
 ## Usage
 Menu Options
